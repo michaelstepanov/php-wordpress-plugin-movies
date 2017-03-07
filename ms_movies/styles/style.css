@@ -1,0 +1,23 @@
+ul.stars-list {
+    height: 40px;
+    display: flex;
+}
+
+ul li.star {
+    background: url(../images/sprite.png) no-repeat;
+    background-position: -15px -118px;
+    font-size: 11px;
+    height: 40px;
+    line-height: 13px;
+    padding: 2px 0 0 34px;
+    display: inline;
+    cursor: pointer;
+}
+
+ul li.star.gold {
+    background-position: -15px -118px;
+}
+
+ul li.star.grey {
+    background-position: -15px -194px;
+}
