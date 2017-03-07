@@ -8,4 +8,5 @@ A user is able to give the movie a rating by marking how many stars he would lik
 The rating is set using an AJAX request, no page refresh happen when saving the value to the Database.
 
 \* One movie has one rating
+
 \* Design is very simple
