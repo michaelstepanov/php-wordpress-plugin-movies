@@ -15,6 +15,7 @@ add_action('save_post', array('MS_Movies', 'add_movie_details'), 10, 2);
 add_action('wp_head', array('MS_Movies', 'add_noindex'), 1, 1);
 add_action('wp_head', array('MS_Movies', 'add_nofollow'), 1, 1);
 add_action('wp_ajax_set_movie_rating', array('MS_Movies', 'set_movie_rating'));
+add_action('wp_ajax_nopriv_set_movie_rating', array('MS_Movies', 'set_movie_rating'));
 add_filter('template_include', array('MS_Movies', 'include_template_function'), 1);
 
 wp_register_style('ms_movie', plugins_url('styles/style.css', __FILE__));
