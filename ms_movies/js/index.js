@@ -20,7 +20,7 @@
                 rating: rating
             },
             success: function (response) {
-                if (response === 'false') {
+                if (response === "false") {
                     console.log("Movie rating can't be set twice");
                     alert("Movie rating can't be set twice");
                     return;
